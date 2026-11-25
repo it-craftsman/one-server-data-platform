@@ -1,0 +1,16 @@
+version: 2
+models:
+  - name: dim_zones
+    columns:
+      - name: zone_id
+        data_tests: [unique, not_null]
+  - name: fct_daily_zone
+    columns:
+      - name: trip_date
+        data_tests: [not_null]
+      - name: trips
+        data_tests: [not_null]
+  - name: mart_monthly
+    columns:
+      - name: month
+        data_tests: [unique, not_null]

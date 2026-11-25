@@ -1,0 +1,11 @@
+name: taxi
+version: "1.0"
+profile: taxi
+model-paths: ["models"]
+seed-paths: ["seeds"]
+models:
+  taxi:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

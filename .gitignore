@@ -1,0 +1,12 @@
+.env
+data/
+site/*
+!site/.gitkeep
+.venv/
+__pycache__/
+transform/target/
+transform/logs/
+transform/dbt_packages/
+transform/.user.yml
+*.duckdb
+*.duckdb.tmp/

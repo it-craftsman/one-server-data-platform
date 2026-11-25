@@ -1,0 +1,8 @@
+.env
+data/
+site/
+.git/
+transform/target/
+transform/logs/
+transform/dbt_packages/
+**/__pycache__/

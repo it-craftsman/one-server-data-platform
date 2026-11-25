@@ -1,0 +1,2 @@
+# Nightly run at 03:15. Adjust the path to where you cloned the repository.
+15 3 * * * cd /opt/platform && flock -n /tmp/platform.lock ./run.sh >> /var/log/platform.log 2>&1

@@ -1,0 +1,11 @@
+taxi:
+  target: prod
+  outputs:
+    prod:
+      type: duckdb
+      path: "{{ env_var('PLATFORM_ROOT') }}/data/serving/marts.duckdb"
+      threads: 4
+      extensions: [iceberg]
+      settings:
+        memory_limit: "{{ env_var('DUCKDB_MEMORY_LIMIT', '1500MB') }}"
+        max_temp_directory_size: "20GB"
