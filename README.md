@@ -2,7 +2,7 @@
 
 A complete, small data platform that runs on one machine: Polars loads raw files into Apache Iceberg tables, dbt on DuckDB builds the marts, and a static page shows the dashboard. It uses a year of NYC yellow taxi trips as test data.
 
-This is the code behind the article [LINK: Medium article].
+This is the code behind the article [A complete data platform on one server: Polars, Iceberg and DuckDB, end to end](https://medium.com/@it-craftsman/a-complete-data-platform-on-one-server-polars-iceberg-and-duckdb-end-to-end-6b2513f2a8e3).
 
 ## What's inside
 
